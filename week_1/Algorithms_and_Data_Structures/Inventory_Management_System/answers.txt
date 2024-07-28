@@ -1,0 +1,16 @@
+o	Explain why data structures and algorithms are essential in handling large inventories.
+
+ans: Data structures and algorithms are crucial for managing extensive inventories, as they provide efficient solutions for data storage and retrieval. These tools facilitate the handling of substantial data volumes, ensuring rapid searches, insertions, and deletions.
+
+
+o	Discuss the types of data structures suitable for this problem.
+
+ans: Suitable data structures for this problem include ArrayLists and HashMaps. ArrayLists provide fast search and insertion, HashMaps offer constant-time performance for basic operations like insertions, searching and deletions.
+
+
+o	Analyze the time complexity of each operation (add, update, delete) in your chosen data structure.
+
+ans: As I am using a HashMap for this problem average time complexity for insertion, updation and deletion is O(1) i.e, constant time.
+
+
+

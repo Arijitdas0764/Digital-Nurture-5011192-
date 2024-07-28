@@ -1,0 +1,23 @@
+o	Explain Big O notation and how it helps in analyzing algorithms.
+
+ans: Big O notation is a standard mathematical notation used to describe the upper bound of the time complexity of an algorithm. It focuses on the growth of the algorithm's running time as the input size increases.
+
+
+
+o	Describe the best, average, and worst-case scenarios for search operations.
+
+ans: The best-case scenario for a search operation is when the desired element is found at the beginning of the search, having a time complexity of O(1).
+The average-case scenario occurs when elements are evenly distributed, meaning the search may need to traverse half of the data set on average. This has a time complexity of O(n/2), which simplifies to O(n) for large input sizes.
+The worst-case scenario for search operations is when the desired element is not present or located at the end of the search. This has a time complexity of O(n).
+
+
+o	Compare the time complexity of linear and binary search algorithms.
+
+ans: Linear search has a time complexity of O(n), as it examines every element in the array.
+Binary search has a time complexity of O(log n), as it reduces the search space in half for each iteration.
+
+
+
+o	Discuss which algorithm is more suitable for your platform and why.
+
+ans: Binary search is more suitable for the e-commerce platform search functionality due to its fast performance and the requirement of a sorted data set.

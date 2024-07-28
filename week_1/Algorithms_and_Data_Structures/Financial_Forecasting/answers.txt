@@ -1,0 +1,18 @@
+o	Explain the concept of recursion and how it can simplify certain problems.
+
+ans: Recursion is a programming technique in which a function calls itself to solve smaller instances of a problem. The function continues to call itself with smaller input values until it reaches a simple base case that can be solved directly. The base case is essential, as it ensures that the recursion eventually stops, preventing an infinite loop.
+
+
+
+o	Discuss the time complexity of your recursive algorithm.
+
+ans: The time complexity of the recursive algorithm is O(n), where n is the number of years. This is because the function makes a recursive call for each year.
+
+
+
+
+o	Explain how to optimize the recursive solution to avoid excessive computation.
+
+ans: To optimize the recursive solution, you can use dynamic programming techniques, such as memoization or tabulation, to avoid excessive computation.
+Memoization is a technique that involves storing the results of expensive function calls and reusing them when the same inputs occur in the future. In this case, you can store the calculated future values for each year to avoid recalculating them.
+

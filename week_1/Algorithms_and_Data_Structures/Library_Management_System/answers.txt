@@ -1,0 +1,25 @@
+o	Explain linear search and binary search algorithms.
+
+ans: Linear Search: A simple search algorithm that sequentially searches through an array or list for a specified element. The time complexity for Linear Search is O(n), where n is the number of elements in the data set.
+Binary Search: A more efficient search algorithm that works by dividing the sorted data set in half for each iteration, comparing the target value with the middle element. 
+If the target value is less than the middle element, the search continues on the lower half; otherwise, it continues on the upper half. The time complexity for Binary Search in the best and average cases is O(log n), where n is the number of elements in the data set. 
+However, in the worst case, if the target value is not in the data set, the time complexity can degrade to O(n).
+
+
+
+o	Compare the time complexity of linear and binary search.
+
+ans: Linear search has a time complexity of O(n), where n is the number of books in the list.
+Binary search has a time complexity of O(log n), where n is the number of books in the list, assuming the list is sorted.
+
+
+
+o	Discuss when to use each algorithm based on the data set size and order.
+
+ans: We should use Linear Search when:
+The data set is small.
+The data set is unordered.
+
+We should use Binary Search when:
+The data set is large.
+The data set is ordered.

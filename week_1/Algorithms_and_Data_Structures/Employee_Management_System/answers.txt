@@ -1,0 +1,22 @@
+o	Explain how arrays are represented in memory and their advantages.
+
+ans: Arrays are a collection of elements of the same data type stored in contiguous memory locations. The array size must be defined at the time of creation, and its elements can be accessed by their index. The advantages of arrays are:
+Easy access to elements by index.
+Fast search, insertion, and deletion operations, with time complexities depending on the specific operation.
+Efficient usage of memory due to contiguous storage.
+
+
+
+o	Analyze the time complexity of each operation (add, search, traverse, delete).
+
+ans: Add: O(1) for an array of fixed size, but time complexity might be O(n) if the array needs to be resized.
+Search: O(n) for linear search.
+Traverse: O(n) for displaying all employees.
+Delete: O(n) for linear search and shifting elements.
+
+
+o	Discuss the limitations of arrays and when to use them.
+
+ans: Arrays have some limitations, such as fixed size and the need to copy and shift elements for insertion and deletion. In some cases, users might prefer dynamic data structures like ArrayLists or LinkedLists. Arrays are useful when the size is known beforehand and insertions and deletions are rare.
+
+
