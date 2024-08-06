@@ -2,7 +2,7 @@
 
 ## **Java FSE solutions**
 
-_Arijit Das_(dasarijit2003@gmail.com)
+_Arijit Das_ (dasarijit2003@gmail.com)
 
 Superset ID: 5011192
 
